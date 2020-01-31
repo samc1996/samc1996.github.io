@@ -2588,7 +2588,8 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	
+.image {
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2910,7 +2911,6 @@ input, select, textarea {
 	header {
 		cursor: default;
 	}
-
 		header > .date {
 			display: block;
 			font-size: 0.8rem;
@@ -3531,11 +3531,6 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#header a:hover {
-				border-bottom-color: transparent;
-				color: #18bfef !important;
-			}
-
 		#header strong, #header b {
 			color: #ffffff;
 		}
@@ -3575,11 +3570,6 @@ input, select, textarea {
 			text-transform: uppercase;
 			visibility: visible;
 		}
-
-			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
-			}
 
 		@media screen and (max-width: 980px) {
 
@@ -3626,6 +3616,11 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
+		#nav ul p{
+		text-transform: uppercase;
+		font: "Source Sans Pro", Helvetica, sans-serif;
+		margin-left: 2rem;
+		}
 
 		#nav ul.divided li {
 			border-top-color: #ffffff;
