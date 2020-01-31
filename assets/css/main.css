@@ -3751,7 +3751,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-image: "images/bg1.jpg";
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
